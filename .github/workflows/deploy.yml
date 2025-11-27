@@ -27,4 +27,4 @@ jobs:
 
       - name: Run tests
         run: |
-          if [ -d tests ]; then pytest -q; else echo "No tests folder found"; fi
+          if [ -d test ]; then pytest -q; else echo "No tests folder found"; fi
