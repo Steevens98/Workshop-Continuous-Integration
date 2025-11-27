@@ -13,3 +13,4 @@
   run: |
     export PYTHONPATH="$PYTHONPATH:$(pwd)"
     if [ -d test ]; then pytest -q; else echo "No tests folder found"; fi
+
